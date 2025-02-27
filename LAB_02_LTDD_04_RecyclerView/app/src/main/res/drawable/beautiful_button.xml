@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Trạng thái khi Button đang được click -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <gradient android:startColor="#30cfd0" android:endColor="#330867"/>
+            <corners android:radius="13dp"/> <!-- Bo góc 12dp -->
+        </shape>
+    </item>
+
+    <!-- Trạng thái mặc định -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient android:startColor="#5ee7df" android:endColor="#b490ca"/>
+            <corners android:radius="13dp"/>
+        </shape>
+    </item>
+</selector>
