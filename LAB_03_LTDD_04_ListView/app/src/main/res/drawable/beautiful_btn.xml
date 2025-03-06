@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--  bo góc  -->
+    <corners android:radius="25dp"/>
+    <!--  tô viền  -->
+    <stroke android:color="@color/black"
+        android:width="3dp"
+        />
+    <!-- Màu nền -->
+    <solid android:color="@color/bg_btnAdd"/>
+</shape>
